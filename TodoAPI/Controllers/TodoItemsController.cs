@@ -20,15 +20,10 @@ namespace TodoAPI.Controllers
             _context = context;
             if (_context.TodoItems.Count() == 0)
             {
-                _context.TodoItems.Add(new TodoItem { Name="Lab1", IsComplete=true});
-                _context.TodoItems.Add(new TodoItem { Name="Lab2",IsComplete=false});
-                _context.TodoItems.Add(new TodoItem { Name="Lab3",IsComplete=false});
-                _context.TodoItems.Add(new TodoItem { Name="Lab4",IsComplete=false});
-                _context.TodoItems.Add(new TodoItem { Name="Lab5",IsComplete=false});
-                _context.TodoItems.Add(new TodoItem { Name="Lab6",IsComplete=false});
-                _context.TodoItems.Add(new TodoItem { Name="Lab7",IsComplete=false});
-                _context.TodoItems.Add(new TodoItem { Name="Lab8",IsComplete=false});
-                _context.TodoItems.Add(new TodoItem { Name="Lab9",IsComplete=false});
+                _context.TodoItems.Add(new TodoItem { Name="Lab1-Lucianna", IsComplete=true});
+                _context.TodoItems.Add(new TodoItem { Name="Lab2-Lucianna",IsComplete=true});
+                _context.TodoItems.Add(new TodoItem { Name="Lab3-Lucianna",IsComplete=true});
+                _context.TodoItems.Add(new TodoItem { Name="Lab4-Lucianna",IsComplete=false});
             }
 
             _context.SaveChanges();
