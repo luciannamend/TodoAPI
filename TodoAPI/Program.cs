@@ -21,7 +21,6 @@ namespace TodoAPI
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
-            // always show the swagger ui for this todo api rest server
             //if (app.Environment.IsDevelopment())
             //{
                 app.UseSwagger();
